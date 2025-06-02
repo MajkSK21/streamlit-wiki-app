@@ -1,41 +1,34 @@
-# 📚 Math Problem Solver & Wikipedia Search Assistant 🧠
+# 📚 Text to Math Problem Solver & Wiki Assistant
 
-This project is a Streamlit-powered web app that uses **LangChain**, **Groq's LLM (Gemma 2)**, and external tools like **Wikipedia** and a **Math Reasoning Agent** to solve natural language questions involving:
-
-- 📐 Mathematical word problems
-- 🔎 Wikipedia-based factual queries
-- 🤔 Logical reasoning
+This Streamlit web app uses **LangChain + Groq + Wikipedia** to solve logical and mathematical questions from natural language input and provide real-time information using Wikipedia.
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Features
 
-> 🔗 **Coming Soon** – Deploy this app using [Streamlit Cloud](https://share.streamlit.io/) or locally as explained below.
-
----
-
-## 🛠️ Features
-
-- ✅ Accepts user input in natural language
-- 🧮 Solves arithmetic and algebra-based math problems
-- 📖 Pulls relevant summaries from Wikipedia
-- 🧠 Performs logical reasoning with step-by-step explanations
-- 🎨 Clean and interactive UI with Streamlit
-- 🔐 Secure input for Groq API key (via sidebar)
+- ✍️ **Natural Language Math Solver** — Converts text-based math problems into solutions with reasoning.
+- 📖 **Wikipedia Search Integration** — Pulls summarized info from Wikipedia using LangChain.
+- 🤖 **Powered by Google Gemma via Groq** — Fast, low-latency LLM experience.
 
 ---
 
-## 📸 Screenshots
+## 🧠 How It Works
 
-![screenshot-1](assets/screenshot1.png)
-![screenshot-2](assets/screenshot2.png)
+1. Accepts a question from the user in plain English.
+2. Uses LangChain tools:
+   - `LLMMathChain` for math computation
+   - `WikipediaAPIWrapper` for fetching data
+3. Uses Groq’s **Gemma-2-9B-IT** model to respond intelligently.
+4. Displays the step-by-step solution or wiki summary.
 
 ---
 
-## 🔧 Installation & Setup
+## 🔧 How to Run This App Locally
 
-### 1. Clone the Repository
-
+### 1. Clone this Repository
 ```bash
-git clone https://github.com/your-username/math-wikipedia-agent.git
-cd math-wikipedia-agent
+git clone https://github.com/juhi-shahi/streamlit-wiki-app.git
+cd streamlit-wiki-app
+
+
+
