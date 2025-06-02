@@ -1,34 +1,33 @@
-# 📚 Text to Math Problem Solver & Wiki Assistant
+# Text to Math Problem Solver & Wiki Assistant
 
-This Streamlit web app uses **LangChain + Groq + Wikipedia** to solve logical and mathematical questions from natural language input and provide real-time information using Wikipedia.
+This is a Streamlit app that uses advanced AI models (Google Gemma 2 via Groq) combined with LangChain to:
 
----
+- Solve math problems step-by-step  
+- Search Wikipedia for detailed information  
 
-## 🚀 Features
-
-- ✍️ **Natural Language Math Solver** — Converts text-based math problems into solutions with reasoning.
-- 📖 **Wikipedia Search Integration** — Pulls summarized info from Wikipedia using LangChain.
-- 🤖 **Powered by Google Gemma via Groq** — Fast, low-latency LLM experience.
+Perfect for students, educators, and curious minds who want quick math help and knowledge retrieval in one place!
 
 ---
 
-## 🧠 How It Works
+## Features
 
-1. Accepts a question from the user in plain English.
-2. Uses LangChain tools:
-   - `LLMMathChain` for math computation
-   - `WikipediaAPIWrapper` for fetching data
-3. Uses Groq’s **Gemma-2-9B-IT** model to respond intelligently.
-4. Displays the step-by-step solution or wiki summary.
+- **Math problem solver**: Enter math questions, get logical, point-wise solutions.  
+- **Wikipedia search tool**: Ask about any topic and get relevant info from Wikipedia.  
+- **Interactive chat interface** powered by Streamlit for easy use.  
 
 ---
 
-## 🔧 How to Run This App Locally
+## Getting Started
 
-### 1. Clone this Repository
+### Prerequisites
+
+- Python 3.8 or higher  
+- Groq API key (Get it from [Groq.ai](https://groq.com))
+
+### Installation
+
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/juhi-shahi/streamlit-wiki-app.git
 cd streamlit-wiki-app
-
-
-
